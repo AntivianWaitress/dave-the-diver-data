@@ -1,0 +1,7 @@
+dave_the_diver:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: ../data/dave_the_diver.duckdb
+      threads: 1

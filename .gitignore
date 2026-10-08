@@ -1,0 +1,38 @@
+# ── Private mentor / AI files (never public) ─────────────
+mentor/
+CLAUDE.md
+AGENTS.md
+
+# ── Data (wiki content is CC BY-SA, data never goes into Git) ──
+data/
+*.duckdb
+*.duckdb.wal
+*.parquet
+*.csv.gz
+
+# ── dbt ──────────────────────────────────────────────────
+target/
+dbt_packages/
+logs/
+.user.yml
+
+# ── Python ───────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.env
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+dist/
+build/
+
+# ── Editors & OS ─────────────────────────────────────────
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
